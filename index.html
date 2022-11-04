@@ -7,31 +7,33 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body> <h2>Contact Us</h2>
-    <p>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
 
-<form action="contact">
-<fieldset>
-  <label for="select">What can we help you with?</label>
-    <select class="select" type="select" name="select" required>
-      <option value=""></option>
-      <option value="">Customer Service</option>
-      <option value="">Returns + Exchanges</option>
-      <option value="">Tracking + Shipping</option>
-      <option value="">Order Confirmations</option>
-      <option value="">Other</option>
-    </select>
+<body> 
+    <h2>Contact Us</h2>
+        <p>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+    <form action="contact">
+        <fieldset>
+            <label for="select">What can we help you with?</label>
+                <select class="select" type="select" name="select" required>
+                    <option value=""></option>
+                    <option value="">Customer Service</option>
+                    <option value="">Returns + Exchanges</option>
+                    <option value="">Tracking + Shipping</option>
+                    <option value="">Order Confirmations</option>
+                    <option value="">Other</option>
+                </select>
 <br>
-  <label for="typebox1">Name</label>
-    <input class="typebox1" type="text" name="name" required></input>
+            <label for="typebox1">Name</label>
+                <input class="typebox1" type="text" name="name" required></input>
 <br>
-  <label for="typebox2">Email</label>
-    <input class="typebox2" type="text" name="email" required></i>
+            <label for="typebox2">Email</label>
+                <input class="typebox2" type="text" name="email" required></i>
 <br>
-  <label for="typebox3">Message</label>
-    <textarea class="typebox3" type="text" name="message" required></textarea>
+            <label for="typebox3">Message</label>
+                <textarea class="typebox3" type="text" name="message" required maxlength="400"></textarea>
 <br>
-  <button class="send" type="button" onclick="alert('Message Sent!')" >Send</button>
-</fieldset>
-</form>
+            <button class="send" type="button" onclick="alert('Message Sent!')" >Send</button>
+        </fieldset>
+    </form>
 </html>
